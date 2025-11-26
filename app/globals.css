@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Wicked';
+  src: url('/fonts/WickedFont-Regular-BF65f34594abb81.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-wicked-black text-white;
+  }
+}
+
+@layer utilities {
+  .smoke-bg {
+    background: transparent;
+  }
+  
+  .spell-line {
+    background: linear-gradient(90deg, 
+      transparent 0%, 
+      rgba(0, 255, 136, 0.1) 50%, 
+      transparent 100%
+    );
+  }
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.smoke-bg {
+  scroll-behavior: smooth;
+}
+
+.smoke-bg::-webkit-scrollbar {
+  width: 8px;
+}
+
+.smoke-bg::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.smoke-bg::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 136, 0.2);
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.smoke-bg::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 255, 136, 0.4);
+}
+
+.smoke-bg {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 255, 136, 0.2) transparent;
+}
