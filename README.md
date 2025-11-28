@@ -1,2 +1,3 @@
-# Veriked
+# Veri | Truth you can rely on — for good.
 
+Veri is a bold, one-of-a-kind trust layer that confirms the authenticity of every digital interaction. It verifies text and search in real time using Artificial Intelligence (AI) and Somnia Data Streams (SDS), keeping signals accurate and protected from tampering. Veri provides on-chain proof for messages and updates, making them fully verifiable across multiple sources. With our latest update, users can link their wallet so the system can match transactions with verified actions, creating clear and trustworthy activity trails. Together, these features form one unified space where messages, user activity, and financial events remain reliable and provably genuine.
